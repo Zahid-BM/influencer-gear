@@ -91,11 +91,20 @@ nav a .fas {
     }
     .popular-collection h2{
         text-align: center;
+        color: #3A3A3A;
+        font-size: 28px;
+        font-weight: 600;
     }
     .collection{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
     }
-.items{
-
+    .items{
+        box-shadow: 0px 0px 25px 0px rgb(219, 218, 218);
+        padding:14px;
+        border-radius: 5px;
+    }
+.items span{
+padding-left: 10px;
 }
