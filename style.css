@@ -1,0 +1,28 @@
+ 
+      /* ##############################
+                common CSS styles  
+    ######################################  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 120px 0 120px;
+    margin-top: 90px;
+}
+nav h4{
+    color: #3A3A3A;
+    font-weight: 700;
+    font-size: 24px;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 34px;
+    color: #3A3A3A;
+}
+nav a .fas {
+    font-size: 1.3em;
+}
