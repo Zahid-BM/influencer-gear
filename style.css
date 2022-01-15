@@ -6,6 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+     /* ##############################
+                Nav menu style starts  
+    ######################################  */
 nav{
     display: flex;
     align-items: center;
@@ -26,3 +30,37 @@ nav a{
 nav a .fas {
     font-size: 1.3em;
 }
+
+     /* ##############################
+                Nav menu style ends  
+    ######################################  */
+
+         /* ##############################
+                main camera part style starts  
+    ######################################  */
+
+    .half-width-container{
+        display: flex;
+        padding: 0 120px 0 120px;
+        justify-content: space-between;
+    }
+    .half-width h1{
+        font-size: 52px;
+        font-weight: 700;
+        color: #3A3A3A;
+    }
+    .half-width p{
+        color: #3A3A3A;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .half-width a {
+        text-decoration: none;
+        background-color: #E02C6D;
+        color: #FFFFFF;
+        padding: 10px 40px;
+        border-radius: 41px;
+    }
+    .fa-arrow-right{
+        padding-left: 5px;
+    }
