@@ -15,12 +15,15 @@ nav{
     align-items: center;
     justify-content: space-between;
     padding: 0 120px 0 120px;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 nav h4{
     color: #3A3A3A;
     font-weight: 700;
     font-size: 24px;
+}
+.nav-menu{
+    padding-bottom: 50px;
 }
 nav a{
     text-decoration: none;
@@ -45,14 +48,18 @@ nav a .fas {
         justify-content: space-between;
     }
     .half-width h1{
+      padding-top: 60px;
         font-size: 52px;
         font-weight: 700;
         color: #3A3A3A;
+        margin-bottom: 0;
     }
     .half-width p{
         color: #3A3A3A;
         font-size: 16px;
         font-weight: 600;
+        padding-bottom: 20px;
+       
     }
     .half-width a {
         text-decoration: none;
@@ -64,3 +71,16 @@ nav a .fas {
     .fa-arrow-right{
         padding-left: 5px;
     }
+    .left{
+        padding-right: 90px;
+    }
+    .half-width img{
+        width: 440px;
+        height: 414px;      
+}
+        
+      /* ##############################
+                main camera part style ends  
+    ######################################  */
+
+    
