@@ -11,6 +11,12 @@ section{
     margin-bottom: 100px;
 }
 
+      /* ##############################
+                common CSS styles  
+    ######################################  */
+
+/* ****************************************************************** */
+
      /* ##############################
                 Nav menu style starts  
     ######################################  */
@@ -28,6 +34,7 @@ nav h4{
 }
 .nav-menu{
     padding-bottom: 50px;
+    padding-top: 60px;
 }
 nav a{
     text-decoration: none;
@@ -41,6 +48,8 @@ nav a .fas {
      /* ##############################
                 Nav menu style ends  
     ######################################  */
+
+/* ****************************************************************** */
 
          /* ##############################
                 main camera part style starts  
@@ -67,8 +76,8 @@ nav a .fas {
     }
     .half-width a {
         text-decoration: none;
-        background-color: #E02C6D;
-        color: #FFFFFF;
+        background-color: #68b429;
+        color: #dcf2f5;
         padding: 10px 40px;
         border-radius: 41px;
         font-weight: 800;
@@ -93,11 +102,13 @@ nav a .fas {
                 main camera part style ends  
     ######################################  */
 
+/* ****************************************************************** */
+
        /* ##############################
                 Popular collection part style starts  
     ######################################  */ 
     .popular-collection{
-        padding: 0 186px 0 186px;
+        padding: 0 186px 0 140px;
     }
     .popular-collection h2{
         text-align: center;
@@ -149,10 +160,18 @@ small{
 }
 .blank-button a{
     text-decoration: none;
-    color: #E02C6D; 
+    color: #469901; 
     position: absolute;
-    right: 110px;
+    right: 160px;
     font-weight: 800;
     margin-top: 20px;
 }
- 
+      /* ##############################
+                Popular collection part style ends  
+    ######################################  */ 
+
+/* ****************************************************************** */
+    
+    /* ##############################
+                bonus part style ends  
+    ######################################  */ 
