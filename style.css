@@ -114,3 +114,30 @@ nav a .fas {
 .items span{
 padding-left: 10px;
 }
+ .items h3{
+     color: #18191F;
+     font-size: 28px;
+     font-weight:lighter;
+     margin-top: 8px;
+     margin-bottom: 10px;
+ }
+.price{
+    color: #4b4848;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+small{
+    color:  #FB8200;
+    font-size: 0.5em;
+}
+.rating-points{
+    color: #5E6366;
+    font-size: 14px;
+    
+}
+.items p{
+    color: #787885;
+    margin-top: 0;
+}
