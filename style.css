@@ -83,4 +83,19 @@ nav a .fas {
                 main camera part style ends  
     ######################################  */
 
-    
+       /* ##############################
+                Popular collection part style starts  
+    ######################################  */ 
+    .popular-collection{
+        padding: 0 186px 0 186px;
+    }
+    .popular-collection h2{
+        text-align: center;
+    }
+    .collection{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+.items{
+
+}
