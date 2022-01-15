@@ -347,7 +347,7 @@ body{
 }
 
 section{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
       /* ##############################
@@ -389,9 +389,7 @@ padding-left: 45px;
          /* ##############################
                 main camera part style starts  
     ######################################  */
-.influencer{
-    margin-bottom: 50px;
-}
+
     .half-width-container{
         display: flex;
        flex-direction: column-reverse;
@@ -452,7 +450,8 @@ padding-left: 45px;
                 Popular collection part style starts  
     ######################################  */ 
     .popular-collection{
-        padding: 0px
+        padding: 0px;
+
     }
     .popular-collection h2{
         text-align: center;
@@ -461,8 +460,7 @@ padding-left: 45px;
         font-weight: 600;
         margin-top: 0;
         padding-top: 0;
-
-       
+ 
     }
     .collection{
         display: grid;
@@ -540,7 +538,7 @@ small{
                 Top influence/bonus part style starts  
     ######################################  */ 
 .top-influencer{
-    padding: 0 186px 0 140px;
+    padding: 0;
 }
 
 .top-influencer h2{
@@ -548,19 +546,24 @@ small{
         font-size: 28px;
         font-weight: 600;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom:0px;
 }
 
 .top-influencer p{
     color: #202931;
-    text-align:justify
+    text-align:justify;
+    padding: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
 }
 
     .influencers{
-        margin-top: 50px;
+        margin-top: 0px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-         grid-gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+         grid-gap: 16px;
+         padding: 16px;
         
     }
     .person{
@@ -570,6 +573,7 @@ small{
     }
     .person img{
         border-radius: 10px;
+        width: 100%;
     }
 .person h3{
      font-size: 28px;
@@ -581,6 +585,7 @@ small{
     text-decoration: none;
     display: inline-block;
     color: #68b429;
+    
 
 }
 
@@ -605,6 +610,7 @@ small{
         border-radius: 41px;
         font-weight: 800;
         display: inline-block;
+        margin-left: 89px;
 
 }
 
@@ -614,11 +620,12 @@ small{
     display: inline-block;
 }
 .fa-hand-point-down:hover{
-    transform: translate(0px, 20px);
-    transition:.1s ease-in-out;  }
+    transform: none;
+    transition:none
+    ;  }
 .person a:hover{
-    transform:scale(1.3);
-    transition:.1s ease-in-out;  
+    transform:none;
+    transition:none;  
 }
 
        /* ##############################
